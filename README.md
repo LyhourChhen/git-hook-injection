@@ -1,13 +1,17 @@
-### Move .git/hook to .githook or any custom folders (also work with reverse to the same place)
-`git config core.hooksPath .githooks/`
+## git-hook-injection
 
-### Run bot && install 
+- The script which let you to inject the git and let you to embedded telegram alert bot to your development group.
 
-```sh
-pip3 install -r requirements.txt
-python3 bot.py
-
+## Installation 
+``sh
+# I personally prefer to have those folder run in the root of the project || to reverse it just change the path
+git config core.hooksPath .githooks/ 
+# Let follow precedure 
+cd ~ && git clone repo 
+cd git-hook-injection 
+cp -r $(your development path)
 ```
 
-- Def the function to specify the message to send.
-- Notify only people who need to Notify# git-hook-injection
+
+### @LyhourChhen
+### 17-5-2020
