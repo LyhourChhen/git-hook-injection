@@ -5,8 +5,5 @@
   "license": "MIT",
   "dependencies": {
     "telegraf": "^3.38.0"
-  },
-  "scripts": {
-    "start": "npx node bot.js"
   }
 }
