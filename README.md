@@ -5,7 +5,8 @@
 ## Installation 
 ```sh
 
-# I personally prefer to have those folder run in the root of the project || to reverse it just change the path
+# I personally prefer to have those folder run in the root of the project 
+# To reverse it just change the path.
 git config core.hooksPath .githooks/ 
 # Let follow precedure 
 cd ~ && git clone repo 
