@@ -1,0 +1,12 @@
+{
+  "name": "githooks_bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^3.38.0"
+  },
+  "scripts": {
+    "start": "npx node bot.js"
+  }
+}
