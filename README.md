@@ -1,6 +1,6 @@
-## git-hook-injection
+## Git-hook-injection
 
-- The script which let you to inject the git and let you to embedded telegram alert bot to your development group.
+- The script which let you to inject the git-hook and let you to embedded telegram alert bot to your development group.
 
 ## Installation 
 ```sh
