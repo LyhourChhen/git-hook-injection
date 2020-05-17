@@ -7,15 +7,15 @@ printf "\e[33;1m%s\e[0m\n" "Sending the process to telegram's bot"
 
 
 if [[ "$OSTYPE" == "darwin"* || "$OSTYPE" == "linux-gnu"* ]]; then
-  printf "\e[33;1m%s\e[0m\n" "MacOX or Linux or Unix like sys Detected"
+  printf "\e[33;1m%s\e[0m\n" "Unix Like system Detected"
   # ---- 
-  npm_path=$(which node)
+  npm_path=$(which npm)
   get_path=$(pwd)
   project_path="$get_path/.githooks/bot.js"
   # Execute the bot
   execute="$npm_path $project_path"
   # $execute  
-  yarn
+  npm install
   $execute
   # ----
 elif [[ "$OSTYPE" == "win32" ]]; then
