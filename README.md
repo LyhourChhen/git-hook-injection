@@ -9,7 +9,7 @@
 # To reverse it just change the path.
 git config core.hooksPath .githooks/ 
 # Let follow precedure 
-cd ~ && git clone repo 
+cd ~ && git clone https://github.com/LyhourChhen/git-hook-injection.git 
 cd git-hook-injection 
 cp -r $(your development path)
 
