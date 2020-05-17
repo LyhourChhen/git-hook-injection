@@ -2,7 +2,7 @@
 
 **The script which let you to inject the git-hook and let you to embedded telegram alert bot to your development group.**
 
-## Installation 
+### Installation 
 ```sh
 
 # I personally prefer to have those folder run in the root of the project 
@@ -14,7 +14,7 @@ cd git-hook-injection
 cp -r $(your development path)
 
 ```
-## Setup Instruction 
+### Setup Instruction 
 ```js
 // GET GROUP ID 
 // Talk with botFater to get a new bot 
