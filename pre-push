@@ -9,7 +9,7 @@ printf "\e[33;1m%s\e[0m\n" "Sending the process to telegram's bot"
 if [[ "$OSTYPE" == "darwin"* || "$OSTYPE" == "linux-gnu"* ]]; then
   printf "\e[33;1m%s\e[0m\n" "Unix Like system Detected"
   # ---- 
-  npm_path=$(which npm)
+  npm_path=$(which node)
   get_path=$(pwd)
   project_path="$get_path/.githooks/bot.js"
   # Execute the bot
